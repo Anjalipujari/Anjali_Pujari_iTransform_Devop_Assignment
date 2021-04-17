@@ -1,0 +1,65 @@
+Assignment:
+
+1.Basic Git & GitHub:
+
+  Link: https://github.com/Anjalipujari/project_dir.git
+
+2.GIT BRANCHING:
+  Objective:commit HTML,CSS,JavaScript assignment into GIT
+  SECTION 1:HTML Assignment
+  SECTION 2:CSS Assignment
+  SECTION 3:JavaScript Assignment
+  
+  GIT REMOTING:(pushing assignments to remote repository)
+  SECTION 1:
+  Link:https://github.com/Anjalipujari/freshersbatch-oct16.git
+
+  SECTION 2:(pushing source code to remote repository using eclipse GIT pulgin)
+
+  link:https://github.com/Anjalipujari/freshersbatch-oct16.git
+
+ **iTransform Degreed assignment:**
+ 
+1.Install and configure git on the provided workstation.
+Clone the repository from https://github.com/satyensingh/content-git-quickstart.git to /home/<user-name>/play and create a new branch for your story.
+Add a new story file to your local repository in your new branch.
+Add an entry to the file contributers.txt in your new branch.
+Commit your changes using the message "airplane story".
+
+ANS: GitHub Repository LINK: https://github.com/Anjalipujari/content-git-quickstart.git
+
+2.In your efforts to better support a development organization, you have begun experimenting with Git source control and its interactions with GitHub. In order to be able to provide secure access to any repositories that are in use, you will create a special SSH key (separate from any that may have been created for other local systems to authenticate through) to be able to make an exchange with GitHub, and identify a service account called 'cloud_user' with your own account.
+
+You will need to use the OpenSSH Client's utilities to create this key. First, create a subdirectory in your account's home directory called 'githubkeys'. Using the appropriate tool, you will create a new key (the default encryption type and size will be acceptable according to your organization's security policy) in this new directory called 'github-service-key'. Once you have this key, find the public key file that matches then copy and paste that into the appropriate account profile information in GitHub. After giving the key a reference name, you should see it appear in the list of your authorized keys, that will confirm it is available for use when trying to securely connect to your account.
+
+ANS: Made a new key  in my github account new2 SHA256:Gy/0Sw0X2q9QwnBq6T0hcPmQgX8pd77+6C65w2BKIw8 
+
+3.The development team in your organization is working on a new Web-based API. They have deployed a central server that they intend to use as a local Git repository for source control. They have managed to configure some of the global settings for the service account they want to use as the Git user, but are having difficulties in getting started with an empty repository.
+
+As a result, they have provided you with the credentials for the service user and credentials to access their server. You have been asked to initialize a new Git repository in the /home/<user-name> directory called 'web-api'.
+
+Once you have this new repository created, create a file called 'README.md' (be careful to mind the case of the file in order to follow your corporate standards for README files) that contains "Web-API v1" text. You will then need to add that file to the repository and commit the changes to the repository. Once you confirm that the default branch is up-to-date with no changes to commit, you may turn it back over to the team for use.
+
+ANS: GitHub Repository LINK: https://github.com/Anjalipujari/web-api.git
+
+4.One of your company's developers noticed that the word readme was mispelled in the web api's git repository readme file.
+
+The company policy dictates that all modifications are to be made in branches, and that these branches are to remain intact and not deleted. until reviewed by a senior developer.
+
+You have been asked to log into the central server used for maintaining the git repository for the web api, which is located in the <user-name>'s home directory, and correct the spelling within the file. You are to use a branch named 'fix-readme', and merge the corrected file back into the master branch when finished. Again, do not remove your branch. Once you have completed this task, hand the system over to the lead developer for approval.
+
+ANS: GitHub Repository LINK: new branch created and corrected the redme.md file as mentioned above https://github.com/Anjalipujari/web-api.git/tree/fix-readme
+
+5.Install git
+Configure git for ssh authentication with GitHub.com
+Create a personal fork of the sample repository https://github.com/satyensingh/train-schedule-app.git
+Clone your personal fork from GitHub
+Create a feature branch to contain the change
+Change the header text in views/index.jade from “Train Schedule” to “Find your train!”
+Add the change in views/index.jade to the next commit
+Commit the change
+Push the change to the remote scm repository
+Create a pull request to merge the feature branch into the master branch
+Merge the pull request
+
+ANS: GitHub Repository LINK:https://github.com/Anjalipujari/train-schedule-app.git/tree/feature
